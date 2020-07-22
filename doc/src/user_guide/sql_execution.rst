@@ -700,6 +700,7 @@ easily be executed with cx_Oracle.  For example:
 Do not concatenate or interpolate user data into SQL statements.  See
 :ref:`bind` instead.
 
+Note that INSERTs and UPDATEs must be committed for the changes to persist.
 See :ref:`txnmgmnt` for best practices on committing and rolling back data
 changes.
 
